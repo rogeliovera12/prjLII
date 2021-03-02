@@ -1,0 +1,65 @@
+from tkinter import 
+from gpiozero import LED
+from time import sleep
+
+a = LED(17)
+b = LED(27)
+c = LED(22)
+
+mainwindow = Tk()
+
+def functionA():
+    global counter
+    counter = +1
+   if counter == 1:
+       a.on()
+       sleep(.1)
+       a.off()
+       print("Playing Song 1")
+     else: counter == 0
+       print ("PLease select a song")
+
+
+#print ("Playing Song 1",counter)
+
+def functionB():
+    global counter
+
+    counter = +2
+    if counter == 1:
+        b.on()
+        sleep(.1)
+        a.off()
+        print("Playing song 2")
+    else: counter == 0
+            print("Please select a song")
+    
+
+def functionC():
+    global counter
+    counter = +3
+    Label.config(text = counter)
+    print("Playing Song 3",counter)
+
+
+def functionD():
+    global counter
+    counter = +4
+    Label.config(text = counter)
+    print("Playing Song 4", counter)
+
+
+
+Label = Label(mainwindow, text = "")
+Abutton = Button(mainwindow, text = " Song 1" ,command = functionA)
+Bbutton2 = Button(mainwindow, text = "Song 2", command  = functionB)
+Cbutton3 = Button(mainwindow, text = " Song 3", command = functionC)
+Dbutton4 = Button(mainwindow, text = "Song 4", command  = functionD)
+
+Abutton.pack()
+Bbutton2.pack()
+Cbutton3.pack()
+Dbutton4.pack()
+
+mainwindow.geometry("500x500")
+mainwindow.mainloop()
