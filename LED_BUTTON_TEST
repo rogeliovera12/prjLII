@@ -1,0 +1,47 @@
+from gpiozero import LED
+from time import sleep
+
+a3 = LED(17)
+b3 = LED(27)
+c3 = LED(22)
+d3 = LED(10)
+e3 = LED(9)
+f3 = LED(11)
+g3 = LED(0)
+a4 = LED(5)
+b4 = LED(6)
+c4 = LED(13)
+d4 = LED(19)
+
+def testbois():
+    i = 40
+    while i > 0:
+        a3.on()
+        b3.on()
+        c3.on()
+        d3.on()
+        e3.on()
+        f3.on()
+        g3.on()
+        a4.on()
+        b4.on()
+        c4.on()
+        d4.on()
+        c3.on()
+        sleep(.1)
+        a3.off()
+        b3.off()
+        c3.off()
+        d3.off()
+        e3.off()
+        f3.off()
+        g3.off()
+        a4.off()
+        b4.off()
+        c4.off()
+        d4.off()
+        c3.off()
+        sleep(.1)
+        i -= 1
+        
+        
