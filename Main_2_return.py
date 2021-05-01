@@ -99,13 +99,9 @@ def stop1():
 
 
 
-def FunctionA():
+def FunctionA(): # Song of Storms
     def run():
         while stop == False:
-
-            if stop == True:
-                return
-
 
 
             i = 0
@@ -113,13 +109,14 @@ def FunctionA():
                 # 1 & 3
                 if stop == True:
                     return
-
                 d3.on()
                 sleep(.9)
                 d3.off()
                 e3.on()
                 sleep(.9)
                 e3.off()
+                if stop == True:
+                    return
                 # 2 & 4
                 f3.on()
                 sleep(.9)
@@ -129,13 +126,14 @@ def FunctionA():
                 e3.off()
                 i += 1
 
+
             i = 0
             if stop == True:
                 return
 
             while i < 2:
                 if stop == True:
-                    return
+                    break
                 # 5 & 7
                 d3.on()
                 sleep(.3)
@@ -151,9 +149,6 @@ def FunctionA():
                 f4.on()
                 a4.on()
                 sleep(.15)
-                if stop == True:
-                    return
-
                 d4.off()
                 f4.off()
                 a4.off()
@@ -162,7 +157,11 @@ def FunctionA():
                 e3.on()
                 sleep(.9)
                 e3.off()
+                if stop == True:
+                    return
+
                 # 6 & 8
+
                 f3.on()
                 sleep(.3)
                 f4.on()
@@ -172,10 +171,6 @@ def FunctionA():
                 f4.off()
                 a4.off()
                 c5.off()
-
-                if stop == True:
-                    return
-
                 sleep(.15)
                 f4.on()
                 a4.on()
@@ -190,13 +185,16 @@ def FunctionA():
                 sleep(.9)
                 e3.off()
                 i += 1
-
-            i = 0
             if stop == True:
                 return
 
+
+            i = 0
             while i < 2:
                 # 9 & 11
+                if stop == True:
+                    return
+
                 d3.on()
                 sleep(.3)
                 d4.on()
@@ -204,8 +202,6 @@ def FunctionA():
                 a4.on()
                 sleep(.15)
                 d4.off()
-                if stop == True:
-                    return
                 f4.off()
                 a4.off()
                 sleep(.15)
@@ -238,8 +234,7 @@ def FunctionA():
                 sleep(.15)
                 e3.off()
                 if stop == True:
-                    return
-
+                    break
                 # 10 & 12
                 f3.on()
                 sleep(.3)
@@ -266,9 +261,6 @@ def FunctionA():
                 g4.on()
                 b4.on()
                 sleep(.15)
-                if stop == True:
-                    return
-
                 e4.off()
                 g4.off()
                 b4.off()
@@ -283,14 +275,15 @@ def FunctionA():
                 sleep(.15)
                 e3.off()
                 i += 1
-
+                if stop == True:
+                    return
 
             i = 0
-            if stop == True:
-                return
-
             while i < 2:
                 # 13 & 15
+                if stop == True:
+                    return
+
                 d3.on()
                 sleep(.3)
                 d4.on()
@@ -305,9 +298,6 @@ def FunctionA():
                 f4.on()
                 a4.on()
                 sleep(.15)
-                if stop == True:
-                    return
-
                 d4.off()
                 f4.off()
                 a4.off()
@@ -324,10 +314,10 @@ def FunctionA():
                 g4.off()
                 b4.off()
                 e3.off()
-                # 14 & 16
                 if stop == True:
                     return
 
+                # 14 & 16
                 f3.on()
                 sleep(.3)
                 f4.on()
@@ -359,10 +349,16 @@ def FunctionA():
                 b4.off()
                 e3.off()
                 i += 1
+                if stop == True:
+                    return
+
 
             i = 0
             while i < 3:  # main melody
                 # 17
+                if stop == True:
+                    return
+
                 d3.on()
                 d4.on()
                 sleep(.15)
@@ -385,7 +381,11 @@ def FunctionA():
                 sleep(.6)
                 e3.off()
                 d5.off()
+                if stop == True:
+                    return
+
                 # 18
+
                 f3.on()
                 e5.on()
                 sleep(.45)
@@ -411,6 +411,8 @@ def FunctionA():
                 sleep(.6)
                 e3.off()
                 a4.off()
+                if stop == True:
+                    return
                 # 19
                 bb3.on()
                 a4.on()
@@ -432,6 +434,9 @@ def FunctionA():
                 a4.off()
                 sleep(.45)
                 f3.off()
+                if stop == True:
+                    return
+
                 # 20
                 bb3.on()
                 a4.on()
@@ -452,6 +457,9 @@ def FunctionA():
                 sleep(.9)
                 a3.off()
                 e4.off()
+                if stop == True:
+                    return
+
                 # 21
                 d3.on()
                 d4.on()
@@ -475,7 +483,11 @@ def FunctionA():
                 sleep(.6)
                 e3.off()
                 d5.off()
+                if stop == True:
+                    return
+
                 # 22
+
                 f3.on()
                 e5.on()
                 sleep(.45)
@@ -501,6 +513,9 @@ def FunctionA():
                 sleep(.6)
                 e3.off()
                 a4.off()
+                if stop == True:
+                    return
+
                 # 23
                 bb3.on()
                 a4.on()
@@ -522,7 +537,11 @@ def FunctionA():
                 a4.off()
                 sleep(.45)
                 f3.off()
+                if stop == True:
+                    return
+
                 # 24
+
                 d3.on()
                 sleep(.3)
                 d4.on()
@@ -553,6 +572,8 @@ def FunctionA():
                 g4.off()
                 b4.off()
                 e3.off()
+                if stop == True:
+                    return
                 # 25
                 f3.on()
                 sleep(.3)
@@ -584,6 +605,9 @@ def FunctionA():
                 g4.off()
                 b4.off()
                 e3.off()
+                if stop == True:
+                    return
+
                 # 26
                 d3.on()
                 sleep(.3)
@@ -615,6 +639,9 @@ def FunctionA():
                 g4.off()
                 b4.off()
                 e3.off()
+                if stop == True:
+                    return
+
                 # 27
                 f3.on()
                 sleep(.3)
@@ -648,9 +675,16 @@ def FunctionA():
                 e3.off()
                 i += 1
 
+                if stop == True:
+                    return
+
+
             i = 0
             while i < 2:
                 # 28 & 30
+                if stop == True:
+                    return
+
                 d3.on()
                 sleep(.3)
                 d4.on()
@@ -689,7 +723,10 @@ def FunctionA():
                 b4.off()
                 sleep(.15)
                 e3.off()
+                if stop == True:
+                    return
                 # 29 & 31
+
                 f3.on()
                 sleep(.3)
                 f4.on()
@@ -730,6 +767,10 @@ def FunctionA():
                 e3.off()
                 i += 1
 
+                if stop == True:
+                    return
+
+
             d3.on()  # ending chord
             d4.on()
             f4.on()
@@ -740,49 +781,46 @@ def FunctionA():
             f4.off()
             a4.off()
 
+            return
 
-            # Offline_Tester.OF()
-
-            if stop == True:
-                break
 
     thread = threading.Thread(target=run)
     thread.start()
 
-def FunctionB():
+def FunctionB(): #WII THEME SONG
     def run1():
         while stop == False:
             # 1 INTRO
-            e4.on()
-            g4.on()
-            b4.on()
-            d5.on()
-            sleep(.1)
-            e4.off()
-            g4.off()
-            b4.off()
-            d5.off()
-            sleep(.1)
-            e4.on()
-            g4.on()
-            b4.on()
-            d5.on()
-            sleep(.1)
-            e4.off()
-            g4.off()
-            b4.off()
-            d5.off()
-            sleep(.1)
-            e4.on()
-            g4.on()
-            b4.on()
-            d5.on()
-            sleep(.1)
-            e4.off()
-            g4.off()
             if stop == True:
                 return
 
+            e4.on()
+            g4.on()
+            b4.on()
+            d5.on()
+            sleep(.1)
+            e4.off()
+            g4.off()
+            b4.off()
+            d5.off()
+            sleep(.1)
+            e4.on()
+            g4.on()
+            b4.on()
+            d5.on()
+            sleep(.1)
+            e4.off()
+            g4.off()
+            b4.off()
+            d5.off()
+            sleep(.1)
+            e4.on()
+            g4.on()
+            b4.on()
+            d5.on()
+            sleep(.1)
+            e4.off()
+            g4.off()
             b4.off()
             d5.off()
             sleep(.1)
@@ -823,12 +861,13 @@ def FunctionB():
             sleep(.1)
             e4.off()
             g4.off()
-            if stop == True:
-                return
 
             b4.off()
             d5.off()
             sleep(.1)
+            if stop == True:
+                return
+
             # 2
             e4.on()
             g4.on()
@@ -872,9 +911,6 @@ def FunctionB():
             sleep(.05)
             e4.on()
             g4.on()
-            if stop == True:
-                return
-
             b4.on()
             d5.on()
             sleep(.05)
@@ -914,7 +950,7 @@ def FunctionB():
             d5.off()
             sleep(.2)
             if stop == True:
-                return
+                break
 
             # 3
             sleep(1.6)
@@ -923,6 +959,10 @@ def FunctionB():
 
             i = 0
             while i < 2:
+
+                if stop == True:
+                    return
+
                 # 5
                 sleep(.2)
                 a4.on()
@@ -955,9 +995,6 @@ def FunctionB():
                 sleep(.1)
                 g4.off()
                 d4.off()
-                if stop == True:
-                    return
-
                 b3.off()
                 sleep(.1)
                 sleep(.2)
@@ -969,6 +1006,9 @@ def FunctionB():
                 d4.off()
                 b3.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 6
                 fs4.on()
                 d4.on()
@@ -980,8 +1020,6 @@ def FunctionB():
                 sleep(.2)
                 e4.on()
                 d4.on()
-                if stop == True:
-                    return
                 b3.on()
                 sleep(.1)
                 e4.off()
@@ -997,6 +1035,9 @@ def FunctionB():
                 b3.off()
                 sleep(.1)
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 7
                 sleep(.2)
                 a4.on()
@@ -1019,9 +1060,6 @@ def FunctionB():
                 d4.on()
                 b3.on()
                 sleep(.1)
-                if stop == True:
-                    break
-
                 g4.off()
                 d4.off()
                 b3.off()
@@ -1043,14 +1081,14 @@ def FunctionB():
                 d4.off()
                 b3.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 8
                 fs4.on()
                 d4.on()
                 b3.on()
                 sleep(.2)
-                if stop == True:
-                    return
-
                 fs4.off()
                 d4.off()
                 b3.off()
@@ -1060,9 +1098,6 @@ def FunctionB():
                 b3.on()
                 sleep(.1)
                 e4.off()
-                if stop == True:
-                    return
-
                 d4.off()
                 b3.off()
                 sleep(.1)
@@ -1075,6 +1110,9 @@ def FunctionB():
                 b3.off()
                 sleep(.1)
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 9
                 sleep(.2)
                 e4.on()
@@ -1118,6 +1156,10 @@ def FunctionB():
                 g4.off()
                 b4.off()
                 sleep(.1)
+
+                if stop == True:
+                    return
+
                 # 10
                 e4.on()
                 g4.on()
@@ -1125,9 +1167,6 @@ def FunctionB():
                 sleep(.2)
                 e4.off()
                 g4.off()
-                if stop == True:
-                    return
-
                 b4.off()
                 sleep(.2)
                 e4.on()
@@ -1147,6 +1186,9 @@ def FunctionB():
                 a4.off()
                 sleep(.1)
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 11
                 sleep(.2)
                 eb4.on()
@@ -1158,9 +1200,6 @@ def FunctionB():
                 d5.off()
                 sleep(.1)
                 eb4.on()
-                if stop == True:
-                    return
-
                 g4.on()
                 d5.on()
                 sleep(.2)
@@ -1193,6 +1232,9 @@ def FunctionB():
                 eb4.off()
                 bb4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 12
                 c4.on()
                 eb4.on()
@@ -1224,6 +1266,9 @@ def FunctionB():
                 sleep(.6)
                 eb4.off()
                 g4.off()
+                if stop == True:
+                    return
+
                 # 13
                 fs4.on()
                 d4.on()
@@ -1242,10 +1287,16 @@ def FunctionB():
                 e4.on()
                 cs4.on()
                 sleep(.2)
+                if stop == True:
+                    return
+
                 # 14
                 sleep(1.6)
                 e4.off()
                 cs4.off()
+                if stop == True:
+                    return
+
                 # 15
                 sleep(.6)
                 d4.on()
@@ -1268,6 +1319,9 @@ def FunctionB():
                 sleep(.2)
                 c4.off()
                 a4.off()
+                if stop== True:
+                    return
+
                 # 16
                 b4.on()
                 ab4.on()
@@ -1285,6 +1339,9 @@ def FunctionB():
                 ab4.off()
                 f4.off()
                 sleep(.4)
+                if stop == True:
+                    return
+
                 # 17
                 b4.on()
                 g4.on()
@@ -1312,6 +1369,9 @@ def FunctionB():
                 fs4.on()
                 bb4.on()
                 sleep(.2)
+                if stop == True:
+                    return
+
                 # 18
                 sleep(.4)
                 fs4.off()
@@ -1339,6 +1399,9 @@ def FunctionB():
                 fs4.on()
                 a4.on()
                 sleep(.2)
+                if stop == True:
+                    return
+
                 # 19
                 sleep(.8)
                 b3.off()
@@ -1352,6 +1415,9 @@ def FunctionB():
                 fs4.off()
                 d4.off()
                 sleep(.4)
+                if stop == True:
+                    return
+
                 # 20
                 sleep(.4)
                 a4.on()
@@ -1393,6 +1459,9 @@ def FunctionB():
                 a4.off()
                 c5.off()
                 eb5.off()
+                if stop == True:
+                    return
+
                 # 21
                 sleep(.2)
                 fs4.on()
@@ -1436,6 +1505,9 @@ def FunctionB():
                 b4.off()
                 ab4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 22
                 eb5.on()
                 b4.on()
@@ -1461,6 +1533,9 @@ def FunctionB():
                 b4.off()
                 ab4.off()
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 23
                 sleep(.2)
                 fs4.on()
@@ -1504,6 +1579,9 @@ def FunctionB():
                 b4.off()
                 ab4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 24
                 eb5.on()
                 b4.on()
@@ -1529,6 +1607,9 @@ def FunctionB():
                 b4.off()
                 ab4.off()
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 25
                 sleep(.2)
                 fs4.on()
@@ -1572,6 +1653,9 @@ def FunctionB():
                 b4.off()
                 g4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 26
                 d5.on()
                 b4.on()
@@ -1597,6 +1681,9 @@ def FunctionB():
                 b4.off()
                 g4.off()
                 sleep(.8)
+                if stop == True:
+                    return
+
                 # 27
                 sleep(.2)
                 fs4.on()
@@ -1640,6 +1727,9 @@ def FunctionB():
                 a4.off()
                 fs4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 28
                 cs5.on()
                 a4.on()
@@ -1672,6 +1762,9 @@ def FunctionB():
                 cs4.off()
                 f4.off()
                 a4.off()
+                if stop == True:
+                    return
+
                 # 29
                 b3.on()
                 e4.on()
@@ -1703,9 +1796,15 @@ def FunctionB():
                 eb4.on()
                 fs4.on()
                 sleep(.2)
+                if stop == True:
+                    return
+
                 # 30
                 sleep(1.6)
                 # 31
+                if stop == True:
+                    return
+
                 eb4.off()
                 fs4.off()
                 sleep(.2)
@@ -1741,6 +1840,9 @@ def FunctionB():
                 ab4.off()
                 b4.off()
                 sleep(.1)
+                if stop == True:
+                    return
+
                 # 32
                 cs5.on()
                 ab4.on()
@@ -1758,6 +1860,9 @@ def FunctionB():
                 ab4.off()
                 d4.off()
                 sleep(.4)
+                if stop == True:
+                    return
+
                 # 33
                 cs4.on()
                 ab4.on()
@@ -1799,6 +1904,9 @@ def FunctionB():
                 ab4.off()
                 b4.off()
                 sleep(.4)
+                if stop == True:
+                    return
+
                 # 34
                 sleep(.4)
                 cs4.on()
@@ -1841,6 +1949,9 @@ def FunctionB():
                 ab4.off()
                 b4.off()
                 sleep(.2)
+                if stop == True:
+                    return
+
                 # 35
                 cs4.on()
                 ab4.on()
@@ -1882,6 +1993,9 @@ def FunctionB():
                 ab4.off()
                 b4.off()
                 sleep(.4)
+                if stop == True:
+                    return
+
                 # 36
                 sleep(.8)
                 cs4.on()
@@ -1925,6 +2039,9 @@ def FunctionB():
                 b4.off()
                 sleep(.2)
                 i += 1
+                if stop == True:
+                    return
+
             # 37 ENDING
             sleep(.2)
             b3.on()
@@ -1967,6 +2084,9 @@ def FunctionB():
             d4.off()
             b3.off()
             sleep(.1)
+            if stop == True:
+                return
+
             # 38
             b3.on()
             d4.on()
@@ -2008,6 +2128,9 @@ def FunctionB():
             d4.off()
             g4.off()
             sleep(.1)
+            if stop == True:
+                return
+
             # 39
             b3.on()
             d4.on()
@@ -2016,66 +2139,1850 @@ def FunctionB():
             b3.off()
             d4.off()
             fs4.off()
-
-
-
             if stop == True:
-                break
+                return
+        if stop == True:
+            return
+
 
     thread = threading.Thread(target=run1)
     thread.start()
 
 
-def functionC():
+def functionC(): # MII CHANNEL
     def run3():
-        try:
-            while stop== False:
-                i = 0
-                j = 0
+        while stop == False:
 
+            i = 0
+            while i < 3:
+                # 1
+                if stop == True:
+                    return
 
-                while i < 5:
+                d4.on()
+                fs4.on()
+                sleep(.25)
+                d4.off()
+                fs4.off()
+                sleep(.25)
+                fs4.on()
+                a4.on()
+                sleep(.125)
+                fs4.off()
+                a4.off()
+                sleep(.125)
+                a4.on()
+                cs5.on()
+                sleep(.25)
+                a4.off()
+                cs5.off()
+                sleep(.25)
+                fs4.on()
+                a4.on()
+                sleep(.25)
+                fs4.off()
+                a4.off()
+                sleep(.25)
+                fs4.on()
+                d4.on()
+                sleep(.125)
+                fs4.off()
+                d4.off()
+                sleep(.125)
+                # 2
+                if stop == True:
+                    return
+                d4.on()
+                sleep(.125)
+                d4.off()
+                sleep(.125)
+                d4.on()
+                sleep(.125)
+                d4.off()
+                sleep(.125)
+                d4.on()
+                sleep(.125)
+                d4.off()
+                sleep(.125)
+                sleep(.25)
+                sleep(.5)
+                sleep(.25)
+                cs4.on()
+                bb3.on()
+                sleep(.25)
+                cs4.off()
+                bb3.off()
+                if stop == True:
+                    return
 
-                    print("Playing", i, " song")
-                    sleep(1)
+                # 3
+                b3.on()
+                d4.on()
+                sleep(.125)
+                b3.off()
+                d4.off()
+                sleep(.125)
+                d4.on()
+                fs4.on()
+                sleep(.125)
+                d4.off()
+                fs4.off()
+                sleep(.125)
+                fs4.on()
+                a4.on()
+                sleep(.125)
+                fs4.off()
+                a4.off()
+                sleep(.125)
+                cs5.on()
+                a4.on()
+                sleep(.25)
+                cs5.off()
+                a4.off()
+                sleep(.25)
+                a4.on()
+                fs4.on()
+                sleep(.25)
+                a4.off()
+                fs4.off()
+                sleep(.25)
+                fs4.on()
+                d4.on()
+                sleep(.25)
+                fs4.off()
+                d4.off()
+                if stop == True:
+                    return
+                # 4
+                e5.on()
+                ab4.on()
+                e4.on()
+                ab3.on()
+                sleep(.5)
+                sleep(.25)
+                e5.off()
+                ab4.off()
+                e4.off()
+                ab3.off()
+                eb5.on()
+                g4.on()
+                eb4.on()
+                g3.on()
+                sleep(.25)
+                eb5.off()
+                g4.off()
+                eb4.off()
+                g3.off()
+                d5.on()
+                fs4.on()
+                d4.on()
+                fs3.on()
+                sleep(.25)
+                d5.off()
+                fs4.off()
+                d4.off()
+                fs3.off()
+                sleep(.25)
+                sleep(.5)
+                if stop == True:
+                    return
 
+                # 5
+                ab4.on()
+                sleep(.25)
+                ab4.off()
+                sleep(.25)
+                cs5.on()
+                e4.on()
+                cs4.on()
+                sleep(.25)
+                cs5.off()
+                e4.off()
+                cs4.off()
+                fs4.on()
+                a3.on()
+                sleep(.25)
+                fs4.off()
+                a3.off()
+                sleep(.25)
+                cs5.on()
+                e4.on()
+                cs4.on()
+                e3.on()
+                sleep(.25)
+                cs5.off()
+                e4.off()
+                cs4.off()
+                e3.off()
+                sleep(.25)
+                ab4.on()
+                a3.on()
+                sleep(.25)
+                ab4.off()
+                a3.off()
+                if stop == True:
+                    return
 
-                    if stop == True:
-                        break
+                # 6
+                sleep(.25)
+                cs5.on()
+                e4.on()
+                cs4.on()
+                sleep(.25)
+                cs5.off()
+                e4.off()
+                cs4.off()
+                sleep(.25)
+                g4.on()
+                g3.on()
+                sleep(.25)
+                g4.off()
+                g3.off()
+                fs4.on()
+                fs3.on()
+                sleep(.25)
+                fs4.off()
+                fs3.off()
+                sleep(.25)
+                e4.on()
+                cs4.on()
+                sleep(.25)
+                e4.off()
+                cs4.off()
+                sleep(.25)
+                if stop == True:
+                    return
 
-                    print("Playing", i, " song")
-                    sleep(1)
-                    print("Playing", i, "song")
-                    sleep(1)
+                # 7
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                sleep(.25)
+                sleep(.5)
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                if stop == True:
+                    return
 
-                    i += 1
+                # 8
+                e4.on()
+                c4.on()
+                fs3.on()
+                # d3.on()
+                sleep(.125)
+                e4.off()
+                c4.off()
+                fs3.off()
+                # d3.off()
+                sleep(.125)
+                sleep(.25)
+                sleep(.5)
+                eb4.on()
+                b3.on()
+                ab3.on()
+                sleep(.5)
+                eb4.off()
+                b3.off()
+                ab3.off()
+                d4.on()
+                bb3.on()
+                g3.on()
+                sleep(.5)
+                d4.off()
+                bb3.off()
+                g3.off()
+                if stop == True:
+                    return
 
-                    if j == 1:
-                        return
+                #9
+                cs4.on()
+                a3.on()
+                sleep(.25)
+                cs4.off()
+                a3.off()
+                sleep(.25)
+                fs4.on()
+                a4.on()
+                sleep(.125)
+                fs4.off()
+                a4.off()
+                sleep(.125)
+                a4.on()
+                cs5.on()
+                sleep(.25)
+                a4.off()
+                cs5.off()
+                sleep(.25)
+                a4.on()
+                fs4.on()
+                sleep(.25)
+                a4.off()
+                fs4.off()
+                sleep(.25)
+                fs4.on()
+                eb4.on()
+                sleep(.25)
+                fs4.off()
+                eb4.off()
+                if stop == True:
+                    return
 
+                # 10
+                e4.on()
+                d4.on()
+                ab3.on()
+                sleep(.125)
+                e4.off()
+                d4.off()
+                ab3.off()
+                sleep(.125)
+                e4.on()
+                d4.on()
+                ab3.on()
+                sleep(.125)
+                e4.off()
+                d4.off()
+                ab3.off()
+                sleep(.125)
+                e4.on()
+                d4.on()
+                ab3.on()
+                sleep(.125)
+                e4.off()
+                d4.off()
+                ab3.off()
+                sleep(.125)
+                sleep(.25)
+                e5.on()
+                ab4.on()
+                sleep(.125)
+                e5.off()
+                ab4.off()
+                sleep(.125)
+                e5.on()
+                ab4.on()
+                sleep(.125)
+                e5.off()
+                ab4.off()
+                sleep(.125)
+                e5.on()
+                ab4.on()
+                sleep(.125)
+                e5.off()
+                ab4.off()
+                sleep(.125)
+                sleep(.25)
+                if stop == True:
+                    return
 
-                    if stop == True:
-                        break
+                # 11
+                g3.on()
+                sleep(.25)
+                g3.off()
+                fs4.on()
+                d4.on()
+                sleep(.125)
+                fs4.off()
+                d4.off()
+                sleep(.125)
+                fs4.on()
+                a4.on()
+                sleep(.125)
+                fs4.off()
+                a4.off()
+                sleep(.125)
+                cs5.on()
+                a4.on()
+                sleep(.25)
+                cs5.off()
+                a4.off()
+                sleep(.25)
+                fs4.on()
+                a4.on()
+                sleep(.25)
+                fs4.off()
+                a4.off()
+                sleep(.25)
+                fs4.on()
+                d4.on()
+                sleep(.25)
+                fs4.off()
+                d4.off()
+                if stop == True:
+                    return
 
+                # 12
+                cs5.on()
+                ab4.on()
+                e4.on()
+                e3.on()
+                sleep(.5)
+                sleep(.5)
+                cs5.off()
+                ab4.off()
+                e4.off()
+                e3.off()
+                b4.on()
+                fs4.on()
+                d4.on()
+                d3.on()
+                sleep(.25)
+                b4.off()
+                fs4.off()
+                d4.off()
+                d3.off()
+                sleep(.25)
+                sleep(.5)
+                if stop == True:
+                    return
 
-        except stop == True:
+                # 13
+                b4.on()
+                d3.on()
+                sleep(.25)
+                b4.off()
+                d3.off()
+                g4.on()
+                sleep(.25)
+                g4.off()
+                d4.on()
+                ab3.on()
+                sleep(.25)
+                d4.off()
+                ab3.off()
+                cs4.on()
+                a3.on()
+                sleep(.5)
+                cs4.off()
+                a3.off()
+                b4.on()
+                sleep(.25)
+                b4.off()
+                g4.on()
+                e3.on()
+                sleep(.25)
+                g4.off()
+                e3.off()
+                cs4.on()
+                sleep(.25)
+                cs4.off()
+                if stop == True:
+                    return
 
-            return
+                # 14
+                a4.on()
+                d3.on()
+                sleep(.25)
+                a4.off()
+                d3.off()
+                fs4.on()
+                sleep(.25)
+                fs4.off()
+                c4.on()
+                fs3.on()
+                sleep(.25)
+                c4.off()
+                fs3.off()
+                b3.on()
+                g3.on()
+                sleep(.5)
+                b3.off()
+                g3.off()
+                f4.on()
+                sleep(.25)
+                f4.off()
+                d4.on()
+                g3.on()
+                sleep(.25)
+                d4.off()
+                g3.off()
+                b3.on()
+                fs3.on()
+                sleep(.25)
+                b3.off()
+                fs3.off()
+                if stop == True:
+                    return
+                # 15
+                e4.on()
+                cs4.on()
+                d3.on()
+                sleep(.125)
+                e4.off()
+                cs4.off()
+                d3.on()
+                sleep(.125)
+                e4.on()
+                cs4.on()
+                d3.on()
+                sleep(.125)
+                e4.off()
+                cs4.off()
+                d3.on()
+                sleep(.125)
+                e4.on()
+                cs4.on()
+                d3.on()
+                sleep(.125)
+                e4.off()
+                cs4.off()
+                d3.on()
+                sleep(.125)
+                sleep(.25)
+                sleep(.5)
+                sleep(.25)
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                if stop == True:
+                    return
+
+                # 16
+                b3.on()
+                sleep(.25)
+                b3.off()
+                cs4.on()
+                sleep(.25)
+                cs4.off()
+                d4.on()
+                sleep(.25)
+                d4.off()
+                fs4.on()
+                d3.on()
+                sleep(.25)
+                fs4.off()
+                d3.off()
+                a4.on()
+                fs3.on()
+                sleep(.25)
+                a4.off()
+                fs3.off()
+                sleep(.25)
+                sleep(.5)
+                if stop == True:
+                    return
+                # 17
+                sleep(.5)
+                sleep(.5)
+                a3.on()
+                sleep(.5)
+                a3.off()
+                bb3.on()
+                sleep(.5)
+                bb3.off()
+                if stop == True:
+                    return
+
+                # 18
+                b3.on()
+                e3.on()
+                sleep(.25)
+                b3.off()
+                e3.off()
+                sleep(.25)
+                e3.on()
+                g3.on()
+                sleep(.25)
+                e3.off()
+                g3.off()
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                b3.on()
+                sleep(.25)
+                b3.off()
+                g3.on()
+                e3.on()
+                sleep(.25)
+                g3.off()
+                e3.off()
+                sleep(.25)
+                sleep(.25)
+                if stop == True:
+                    return
+
+                # 19
+                sleep(.25)
+                e3.on()
+                g3.on()
+                sleep(.25)
+                e3.off()
+                g3.off()
+                a3.on()
+                sleep(.25)
+                a3.off()
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                b3.on()
+                e3.on()
+                g3.on()
+                sleep(.25)
+                b3.off()
+                e3.off()
+                g3.off()
+                fs4.on()
+                sleep(.25)
+                fs4.off()
+                e3.on()
+                g3.on()
+                sleep(.25)
+                e3.off()
+                g3.off()
+                cs4.on()
+                sleep(.25)
+                cs4.off()
+                if stop == True:
+                    return
+
+                # 20
+                b3.on()
+                d3.on()
+                sleep(.25)
+                b3.off()
+                d3.off()
+                sleep(.25)
+                fs3.on()
+                d3.on()
+                sleep(.25)
+                fs3.off()
+                d3.off()
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                b3.on()
+                sleep(.25)
+                b3.off()
+                fs3.on()
+                d3.on()
+                sleep(.25)
+                fs3.off()
+                d3.off()
+                sleep(.25)
+                sleep(.25)
+                if stop == True:
+                    return
+                # 21
+                sleep(.25)
+                d3.on()
+                fs3.on()
+                sleep(.25)
+                d3.off()
+                fs3.off()
+                sleep(.25)
+                sleep(.25)
+                b3.on()
+                d3.on()
+                fs3.on()
+                sleep(.25)
+                sleep(.25)
+                c4.on()
+                sleep(.25)
+                c4.off()
+                sleep(.25)
+                if stop == True:
+                    return
+                # 22
+                cs4.on()
+                ab3.on()
+                sleep(.25)
+                cs4.off()
+                ab3.off()
+                sleep(.25)
+                b3.on()
+                sleep(.25)
+                b3.off()
+                c4.on()
+                c3.on()
+                sleep(.25)
+                c4.off()
+                c3.off()
+                cs4.on()
+                sleep(.25)
+                cs4.off()
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                sleep(.25)
+                sleep(.25)
+                if stop == True:
+                    return
+                # 23
+                sleep(.25)
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                cs4.on()
+                sleep(.25)
+                cs4.off()
+                c4.on()
+                sleep(.25)
+                cs4.on()
+                c4.off()
+                sleep(.25)
+                cs4.off()
+                ab4.on()
+                sleep(.25)
+                ab4.off()
+                bb3.on()
+                sleep(.25)
+                bb3.off()
+                eb4.on()
+                sleep(.25)
+                eb4.off()
+                if stop == True:
+                    return
+                # 24
+                cs4.on()
+                fs3.on()
+                sleep(.25)
+                cs4.off()
+                fs3.off()
+                sleep(.25)
+                bb3.on()
+                fs3.on()
+                sleep(.25)
+                bb3.off()
+                fs3.off()
+                eb4.on()
+                sleep(.25)
+                eb4.off()
+                b3.on()
+                sleep(.25)
+                b3.off()
+                bb3.on()
+                fs3.on()
+                sleep(.25)
+                bb3.off()
+                fs3.off()
+                sleep(.25)
+                cs5.on()
+                cs4.on()
+                sleep(.25)
+                cs5.off()
+                cs4.off()
+                if stop == True:
+                    return
+
+                # 25
+                d5.on()
+                d4.on()
+                sleep(.25)
+                d5.off()
+                d4.off()
+                a4.on()
+                fs4.on()
+                e3.on()
+                sleep(.25)
+                a4.off()
+                fs4.off()
+                e3.off()
+                sleep(.25)
+                d4.on()
+                sleep(.25)
+                d4.off()
+                ab4.on()
+                e4.on()
+                cs4.on()
+                b3.on()
+                sleep(.125)
+                ab4.off()
+                e4.off()
+                cs4.off()
+                b3.off()
+                sleep(.125)
+                ab4.on()
+                e4.on()
+                cs4.on()
+                b3.on()
+                sleep(.125)
+                ab4.off()
+                e4.off()
+                cs4.off()
+                b3.off()
+                sleep(.125)
+                ab4.on()
+                e4.on()
+                cs4.on()
+                b3.on()
+                sleep(.125)
+                ab4.off()
+                e4.off()
+                cs4.off()
+                b3.off()
+                sleep(.125)
+                sleep(.25)
+                i += 1
+                if stop == True:
+                    return
+
+            if stop == True:
+                return
+
 
     thread = threading.Thread(target=run3)
     thread.start()
 
 
 
-def functionD():
+def functionD(): # CHAD SONG
     def run4():
         while stop == False:
+            if stop == True:
+                return
+            # 1
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            eb4.on()
+            sleep(.1075)
+            eb4.off()
+            sleep(.1075)
+            if stop == True:
+                return
 
-            print("Song 3 playing")
+            # 2
+            eb4.on()
+            sleep(1.29)
+            eb4.off()
+            bb3.on()
+            bb4.on()
+            sleep(1.29)
+            bb3.off()
+            bb4.off()
+            sleep(.43)
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            if stop == True:
+                return
+            # 3
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            bb4.on()
+            sleep(.1075)
+            bb4.off()
+            sleep(.1075)
+            bb4.on()
+            sleep(.215)
+            sleep(2.58)
+            bb4.off()
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            eb4.on()
+            sleep(.1075)
+            eb4.off()
+            sleep(.1075)
+            if stop == True:
+                return
+
+            # 4
+            eb4.on()
+            f4.on()
+            sleep(.86)
+            eb4.off()
+            f4.off()
+            sleep(.43)
+            bb4.on()
+            bb3.on()
+            f4.on()
+            sleep(.86)
+            sleep(.43)
+            bb4.off()
+            bb3.off()
+            f4.off()
+            sleep(.43)
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            if stop == True:
+                return
+
+            # 5
+            eb4.on()
+            ab4.on()
+            sleep(.1075)
+            eb4.off()
+            ab4.off()
+            sleep(.1075)
+            bb3.on()
+            ab4.on()
+            bb4.on()
+            sleep(.1075)
+            bb3.off()
+            ab4.off()
+            bb4.off()
+            sleep(.1075)
+            bb3.on()
+            ab4.on()
+            bb4.on()
+            sleep(1.72)
+            bb3.off()
+            ab4.off()
+            bb4.off()
+            sleep(.86)
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            if stop == True:
+                return
+
+            # 6
+            ab4.on()
+            sleep(.86)
+            ab4.off()
+            fs4.on()
+            sleep(.86)
+            fs4.off()
+            f4.on()
+            sleep(.86)
+            f4.off()
+            eb4.on()
+            sleep(.43)
+            eb4.off()
+            ab4.on()
+            sleep(.43)
+            ab4.off()
+            if stop == True:
+                return
+
+            # 7
+            bb4.on()
+            sleep(.215)
+            bb4.off()
+            eb4.on()
+            sleep(.1075)
+            eb4.off()
+            sleep(.1075)
+            eb4.on()
+            sleep(.43)
+            eb4.off()
+            sleep(.43)
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            bb3.on()
+            sleep(.215)
+            bb3.off()
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            bb4.on()
+            sleep(.1075)
+            bb4.off()
+            sleep(.1075)
+            bb4.on()
+            sleep(.43)
+            bb4.off()
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            sleep(.215)
+            eb4.on()
+            sleep(.215)
+            eb4.off()
+            sleep(.215)
+            if stop == True:
+                return
+
+            # 8
+            eb4.on()
+            sleep(.86)
+            eb4.off()
+            sleep(.86)
+            sleep(.86)
+            ######## sleep(.5) sleep(.325) sleep(.175) sleep(.167)
+            d4.on()
+            sleep(.167)
+            d4.off()
+            cs4.on()
+            sleep(.167)
+            cs4.off()
+            c4.on()
+            sleep(.167)
+            c4.off()
+            if stop == True:
+                return
+
+            # 9
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            d3.on()
+            sleep(.325)
+            d3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            d4.on()
+            sleep(.325)
+            d4.off()
+            b3.on()
+            sleep(.175)
+            b3.off()
+            if stop == True:
+                return
+
+            # 10
+            g4.on()
+            sleep(.167)
+            g4.off()
+            fs4.on()
+            sleep(.167)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            g4.off()
+            a4.on()
+            sleep(.167)
+            a4.off()
+            g4.on()
+            sleep(.167)
+            g4.off()
+            fs4.on()
+            sleep(.167)
+            fs4.off()
+            g4.on()
+            sleep(.325)
+            g4.off()
+            d4.on()
+            sleep(.175)
+            d4.off()
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            if stop == True:
+                return
+
+            # 11
+            fs3.on()
+            sleep(.325)
+            fs3.off()
+            e3.on()
+            sleep(.175)
+            e3.off()
+            fs3.on()
+            sleep(.325)
+            fs3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            a3.on()
+            sleep(.325)
+            a3.off()
+            b3.on()
+            sleep(.175)
+            b3.off()
+            c4.on()
+            sleep(.167)
+            c4.off()
+            b3.on()
+            sleep(.167)
+            b3.off()
+            a3.on()
+            sleep(.167)
+            a3.off()
+            if stop == True:
+                return
+
+            # 12
+            d4.on()
+            sleep(.325)
+            d4.off()
+            cs4.on()
+            sleep(.175)
+            cs4.off()
+            d4.on()
+            sleep(.325)
+            d4.off()
+            e4.on()
+            sleep(.175)
+            e4.off()
+            fs4.on()
+            sleep(.325)
+            fs4.off()
+            d4.on()
+            sleep(.175)
+            d4.off()
+            c4.on()
+            sleep(.325)
+            c4.off()
+            a3.on()
+            sleep(.175)
+            a3.off()
+            if stop == True:
+                return
+
+            # 13
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            d3.on()
+            sleep(.325)
+            d3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            d4.on()
+            sleep(.325)
+            d4.off()
+            b3.on()
+            sleep(.175)
+            b3.off()
+            if stop == True:
+                return
+
+            # 14
+            g4.on()
+            sleep(.167)
+            g4.off()
+            fs4.on()
+            sleep(.167)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            g4.off()
+            a4.on()
+            sleep(.167)
+            a4.off()
+            g4.on()
+            sleep(.167)
+            g4.off()
+            fs4.on()
+            sleep(.167)
+            fs4.off()
+            g4.on()
+            sleep(.325)
+            g4.off()
+            d4.on()
+            sleep(.175)
+            d4.off()
+            b3.on()
+            sleep(.325)
+            b3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            if stop == True:
+                return
+
+            # 15
+            b3.on()
+            sleep(.167)
+            b3.off()
+            c4.on()
+            sleep(.167)
+            c4.off()
+            d4.on()
+            sleep(.167)
+            d4.off()
+            g4.on()
+            sleep(.325)
+            g4.off()
+            d4.on()
+            sleep(.175)
+            d4.off()
+            c4.on()
+            sleep(.325)
+            c4.off()
+            a3.on()
+            sleep(.175)
+            a3.off()
+            fs3.on()
+            sleep(.325)
+            fs3.off()
+            g3.on()
+            sleep(.175)
+            g3.off()
+            if stop == True:
+                return
+
+            # 16
+            a3.on()
+            sleep(.325)
+            a3.off()
+            g3.on()
+            sleep(.0875)
+            g3.off()
+            sleep(.0875)
+            g3.on()
+            sleep(.325)
+            g3.off()
+            fs3.on()
+            sleep(.175)
+            fs3.off()
+            g3.on()
             sleep(.5)
+            g3.off()
+            sleep(.5)
+            ######### sleep(.333) sleep(.167) sleep(.083)
+            # 17
 
             if stop == True:
-                break
+                return
+            sleep(.333)
+            eb4.on()
+            sleep(.083)
+            eb4.off()
+            sleep(.083)
+            eb4.on()
+            sleep(.083)
+            eb4.off()
+            sleep(.083)
+            sleep(.333)
+            eb4.on()
+            sleep(.167)
+            eb4.off()
+            sleep(.167)
+            if stop == True:
+                return
+            # 18
+            sleep(.333)
+            eb4.on()
+            sleep(.167)
+            eb4.off()
+            sleep(.167)
+            ab4.on()
+            sleep(.167)
+            ab4.off()
+            sleep(.167)
+            ab4.on()
+            sleep(.167)
+            ab4.off()
+            sleep(.167)
+            if stop == True:
+                return
+            # 19
+            sleep(.333)
+            eb4.on()
+            sleep(.083)
+            eb4.off()
+            sleep(.083)
+            eb4.on()
+            sleep(.083)
+            eb4.off()
+            sleep(.083)
+            sleep(.333)
+            eb4.on()
+            sleep(.167)
+            eb4.off()
+            sleep(.167)
+            if stop == True:
+                return
+
+            # 20
+            sleep(.333)
+            eb4.on()
+            sleep(.167)
+            eb4.off()
+            sleep(.167)
+            ab4.on()
+            sleep(.167)
+            ab4.off()
+            sleep(.167)
+            ab4.on()
+            sleep(.167)
+            ab4.off()
+            sleep(.167)
+            if stop == True:
+                return
+
+            # 21
+            g3.on()
+            g4.on()
+            sleep(.333)
+            g3.off()
+            g4.off()
+            a3.on()
+            a4.on()
+            sleep(.333)
+            a3.off()
+            a4.off()
+            b3.on()
+            b4.on()
+            sleep(.333)
+            b3.off()
+            b4.off()
+            c4.on()
+            c5.on()
+            sleep(.333)
+            if stop == True:
+                return
+
+            # 22
+            sleep(.333)
+            c4.off()
+            c5.off()
+            d4.on()
+            d5.on()
+            sleep(.333)
+            d4.off()
+            d5.off()
+            e5.on()
+            e4.on()
+            sleep(.333)
+            sleep(.333)
+            e5.off()
+            e4.off()
+            if stop == True:
+                return
+
+            # 23
+            ab4.on()
+            sleep(.333)
+            ab4.off()
+            sleep(.333)
+            sleep(.333)
+            sleep(.333)
+            if stop == True:
+                return
+
+            # 24
+            sleep(.333)
+            sleep(.333)
+            sleep(.333)
+            sleep(.333)
+            # 25
+            if stop == True:
+                return
+
+            a3.on()
+            a4.on()
+            sleep(.333)
+            a3.off()
+            a4.off()
+            fs3.on()
+            fs4.on()
+            sleep(.333)
+            fs3.off()
+            fs4.off()
+            a3.on()
+            a4.on()
+            sleep(.333)
+            a3.off()
+            a4.off()
+            g3.on()
+            g4.on()
+            sleep(.333)
+            g3.off()
+            g4.off()
+            if stop == True:
+                return
+
+            # 26
+            sleep(.333)
+            sleep(.333)
+            sleep(.333)
+            sleep(.167)
+            ab4.on()
+            sleep(.167)
+            ab4.off()
+            if stop == True:
+                return
+
+            # 27
+            a3.on()
+            a4.on()
+            sleep(.333)
+            a3.off()
+            a4.off()
+            fs4.on()
+            fs3.on()
+            sleep(.167)
+            fs3.off()
+            fs4.off()
+            sleep(.167)
+            fs3.on()
+            fs4.on()
+            sleep(.333)
+            fs3.off()
+            fs4.off()
+            a4.on()
+            a3.on()
+            sleep(.167)
+            a4.off()
+            a3.off()
+            g3.on()
+            g4.on()
+            sleep(.167)
+            g3.off()
+            g4.off()
+            if stop == True:
+                return
+
+            # 28
+            sleep(.333)
+            sleep(.167)
+            sleep(.083)
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            sleep(.083)
+            g4.off()
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            sleep(.083)
+            g4.off()
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            if stop == True:
+                return
+
+            # 29
+            f4.on()
+            g4.on()
+            sleep(.333)
+            f4.off()
+            g4.off()
+            sleep(.333)
+            f4.on()
+            g4.on()
+            sleep(.333)
+            f4.off()
+            g4.off()
+            if stop == True:
+                return
+
+            # 30
+            sleep(.333)
+            sleep(.167)
+            sleep(.083)
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            sleep(.083)
+            g4.off()
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            g4.on()
+            sleep(.167)
+            sleep(.083)
+            g4.off()
+            fs4.on()
+            sleep(.083)
+            fs4.off()
+            if stop == True:
+                return
+
+            # 31
+            fs4.on()
+            g4.on()
+            sleep(.333)
+            fs4.off()
+            g4.off()
+            sleep(.333)
+            fs4.on()
+            g4.on()
+            sleep(.333)
+            fs4.off()
+            g4.off()
+            if stop == True:
+                return
+            # 32
+            sleep(.167)
+            eb4.on()
+            sleep(.083)
+            eb4.off()
+            sleep(.083)
+            eb4.on()
+            sleep(.333)
+            eb4.off()
+            f4.on()
+            sleep(.333)
+            f4.off()
+            fs4.on()
+            sleep(.333)
+            fs4.off()
+            if stop == True:
+                return
+
+            # 33
+            g3.on()
+            g4.on()
+            sleep(.333)
+            sleep(.333)
+            g3.off()
+            g4.off()
+            ab3.on()
+            ab4.on()
+            sleep(.333)
+            sleep(.333)
+            ab3.off()
+            ab4.off()
+            if stop == True:
+                return
+
+            # 34
+            f3.on()
+            f4.on()
+            sleep(.333)
+            sleep(.333)
+            g3.on()
+            g4.on()
+            sleep(.333)
+            sleep(.333)
+            g3.off()
+            g4.off()
+            ######## sleep(.6) sleep(.3) sleep(.15)
+
+            i = 0
+            if stop == True:
+                return
+
+            while i < 2:
+                # 35 & 37
+                if stop == True:
+                    return
+
+                c4.on()
+                sleep(.3)
+                c4.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                sleep(.3)
+                a4.off()
+                c4.on()
+                sleep(.6)
+                c4.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                sleep(.3)
+                a4.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                if stop == True:
+                    return
+
+                # 36 & 38
+                b3.on()
+                sleep(.3)
+                b3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                sleep(.3)
+                a4.off()
+                b3.on()
+                sleep(.6)
+                b3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                g4.on()
+                sleep(.3)
+                g4.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                i += 1
+
+            i = 0
+            if stop == True:
+                return
+
+            while i < 2:
+                # 39 & 41
+                if stop == True:
+                    return
+
+                c4.on()
+                f3.on()
+                sleep(.3)
+                c4.off()
+                f3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                sleep(.3)
+                a4.off()
+                c4.on()
+                sleep(.6)
+                c4.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                f3.on()
+                sleep(.3)
+                a4.off()
+                f3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                if stop == True:
+                    return
+
+                # 40 & 42
+                b3.on()
+                c3.on()
+                sleep(.3)
+                b3.off()
+                c3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                a4.on()
+                sleep(.3)
+                a4.off()
+                b3.on()
+                sleep(.6)
+                b3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                g4.on()
+                c3.on()
+                sleep(.3)
+                g4.off()
+                c3.off()
+                e4.on()
+                sleep(.3)
+                e4.off()
+                i += 1
+
+            i = 0
+            if stop == True:
+                return
+
+            while i < 2:
+                # 43
+                if stop == True:
+                    return
+
+                c4.on()
+                e4.on()
+                a4.on()
+                f3.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                f3.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                f3.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                f3.off()
+                sleep(.15)
+                c4.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                c4.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                if stop == True:
+                    return
+
+                # 44
+                b3.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                a4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                a4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                g4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                g4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                g4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                g4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                g4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                g4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                g4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                g4.off()
+                sleep(.15)
+                b3.on()
+                e4.on()
+                g4.on()
+                sleep(.15)
+                b3.off()
+                e4.off()
+                g4.off()
+                sleep(.15)
+                i += 1
+                if stop == True:
+                    return
+            if stop == True:
+                return
 
     thread = threading.Thread(target=run4)
     thread.start()
@@ -2084,24 +3991,35 @@ def functionD():
 
 
 
-
-image2 = Image.open("C:/Users/rogel/Desktop/School Folder/GUI_Picture/Link_Bad_Picture.PNG")
-photo2 = ImageTk.PhotoImage(image2)
+image2=Image.open("/home/pi/Desktop/link.png")
+photo2=ImageTk.PhotoImage(image2)
 lab2 = Label(image=photo2)
 lab2.pack()
-lab2.place(x=300, y=250)
+lab2.place(x = 100, y = 200)
 
-image3 = Image.open("C:/Users/rogel/Desktop/School Folder/GUI_Picture/Matt_Wii.jpg")
-photo3 = ImageTk.PhotoImage(image3)
+image3=Image.open("/home/pi/Desktop/bob.png")
+photo3=ImageTk.PhotoImage(image3)
 lab3 = Label(image=photo3)
 lab3.pack()
-lab3.place(x=1100, y=500)
+lab3.place(x = 1200, y = 600)
 
-image4 = Image.open("C:/Users/rogel/Desktop/School Folder/GUI_Picture/Spongebob.png")
-photo4 = ImageTk.PhotoImage(image4)
+image4=Image.open("/home/pi/Desktop/mii.png")
+photo4=ImageTk.PhotoImage(image4)
 lab4 = Label(image=photo4)
 lab4.pack()
-lab4.place(x=1200, y=200)
+lab4.place(x = 1200, y = 200)
+
+image5=Image.open("/home/pi/Desktop/mii_c.png")
+photo5=ImageTk.PhotoImage(image5)
+lab5 = Label(image=photo5)
+lab5.pack()
+lab5.place(x = 100, y = 600)
+
+image6=Image.open("/home/pi/Desktop/mii_c.png")
+photo6=ImageTk.PhotoImage(image6)
+lab6 = Label(image=photo6)
+lab6.pack()
+lab6.place(x = 575, y = 750)
 
 Label = Label(mainwindow)
 
